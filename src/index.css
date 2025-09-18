@@ -6,63 +6,63 @@
 
 @layer base {
   :root {
-    /* Dark theme base */
-    --background: 222 47% 4%;
-    --foreground: 210 40% 98%;
+    /* Light theme with turquoise, sea green, and blue tones */
+    --background: 180 25% 88%;
+    --foreground: 210 15% 20%;
 
-    /* Cards with glass morphism */
-    --card: 222 47% 8%;
-    --card-foreground: 210 40% 98%;
-    --card-border: 222 47% 12%;
+    /* Cards with subtle transparency */
+    --card: 185 30% 92%;
+    --card-foreground: 210 15% 25%;
+    --card-border: 185 25% 85%;
 
     /* Popovers */
-    --popover: 222 47% 6%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 185 35% 95%;
+    --popover-foreground: 210 15% 20%;
 
-    /* Primary - Electric Purple */
-    --primary: 270 100% 70%;
-    --primary-foreground: 222 47% 4%;
-    --primary-hover: 270 100% 75%;
+    /* Primary - Ocean Blue */
+    --primary: 200 85% 45%;
+    --primary-foreground: 180 25% 95%;
+    --primary-hover: 200 85% 50%;
 
-    /* Secondary - Deep Purple */
-    --secondary: 257 47% 25%;
-    --secondary-foreground: 210 40% 98%;
-    --secondary-hover: 257 47% 30%;
+    /* Secondary - Sea Green */
+    --secondary: 160 50% 55%;
+    --secondary-foreground: 180 25% 95%;
+    --secondary-hover: 160 50% 60%;
 
     /* Muted */
-    --muted: 222 47% 10%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 185 25% 85%;
+    --muted-foreground: 210 15% 45%;
 
-    /* Accent - Neon Blue */
-    --accent: 195 100% 60%;
-    --accent-foreground: 222 47% 4%;
-    --accent-hover: 195 100% 65%;
+    /* Accent - Turquoise */
+    --accent: 175 60% 50%;
+    --accent-foreground: 180 25% 95%;
+    --accent-hover: 175 60% 55%;
 
-    /* Success - Neon Green */
-    --success: 120 100% 60%;
-    --success-foreground: 222 47% 4%;
+    /* Success - Emerald Green */
+    --success: 150 70% 45%;
+    --success-foreground: 180 25% 95%;
 
-    /* Warning - Neon Orange */
-    --warning: 35 100% 60%;
-    --warning-foreground: 222 47% 4%;
+    /* Warning - Amber */
+    --warning: 35 85% 55%;
+    --warning-foreground: 180 25% 95%;
 
-    /* Destructive - Neon Red */
-    --destructive: 0 100% 60%;
-    --destructive-foreground: 210 40% 98%;
+    /* Destructive - Coral Red */
+    --destructive: 5 75% 55%;
+    --destructive-foreground: 180 25% 95%;
 
     /* Borders and inputs */
-    --border: 222 47% 15%;
-    --input: 222 47% 12%;
-    --ring: 270 100% 70%;
+    --border: 185 25% 80%;
+    --input: 185 30% 90%;
+    --ring: 200 85% 45%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(270 100% 70%), hsl(195 100% 60%));
-    --gradient-secondary: linear-gradient(135deg, hsl(257 47% 25%), hsl(222 47% 15%));
-    --gradient-hero: linear-gradient(135deg, hsl(270 100% 70% / 0.1), hsl(195 100% 60% / 0.1));
+    --gradient-primary: linear-gradient(135deg, hsl(200 85% 45%), hsl(175 60% 50%));
+    --gradient-secondary: linear-gradient(135deg, hsl(160 50% 55%), hsl(185 30% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(200 85% 45% / 0.1), hsl(175 60% 50% / 0.1));
     
-    /* Shadows with glow */
-    --shadow-glow: 0 0 50px hsl(270 100% 70% / 0.3);
-    --shadow-card: 0 10px 30px hsl(222 47% 2% / 0.5);
+    /* Shadows with subtle glow */
+    --shadow-glow: 0 0 30px hsl(200 85% 45% / 0.2);
+    --shadow-card: 0 8px 25px hsl(185 25% 60% / 0.15);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
