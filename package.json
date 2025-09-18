@@ -1,0 +1,13 @@
+{
+  "name": "rentalnft-root",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "npm --prefix rentalNFT run dev",
+    "build": "npm --prefix rentalNFT run build",
+    "preview": "npm --prefix rentalNFT run preview",
+    "lint": "npm --prefix rentalNFT run lint"
+  }
+}
+
+
